@@ -26,7 +26,7 @@ $(function(){
     });
 ////
 
-    $(".carT a").click(function(){
+    $(".carT span").click(function(){
         if($(this).hasClass("selected")){
             $(this).removeClass("selected").parent().siblings().hide();
         }else{

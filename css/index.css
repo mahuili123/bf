@@ -8,11 +8,8 @@ html,body{
     line-height: 1rem;
     font-size: 0.36rem;
     text-align: left;
-    position: absolute;
     background: #e73d4d;
     color: #fff;
-    left:0;
-    top:0;
     padding-left: 10%;
 }
 .top span{
@@ -34,12 +31,7 @@ html,body{
     top:0.35rem;
 }
 .content{
-    position: absolute;
-    top:1rem;
-    bottom:1rem;
-    left:0;
-    right:0;
-    overflow: auto;
+  padding-bottom: 1.3rem;
 }
 .main{
     width: 90%;
@@ -377,7 +369,7 @@ html,body{
 .card{
     margin-bottom: 0;
 }
-.card a{
+.card span{
     font-size: .28rem;
     display: block;
     width: 1.78rem;
@@ -405,7 +397,7 @@ h3{
     font-size: .28rem;
     color: #666;
 }
-.card .cardBox a.selected{
+.card .cardBox span.selected{
     border: 1px solid #e73d4d;
     color: #e73d4d;
 }
@@ -504,7 +496,7 @@ h3{
     line-height: 1rem;
     text-align: center;
     font-size: 0.36rem;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     background-color: #e73d4d;
